@@ -16,7 +16,7 @@ console.error = console.warn = console.info = console.debug = () => { };
 
 console.clear();
 console.log(`${logPrefix}Starting`, styles.starting);
-console.log(`${logPrefix}Create by t.me/Bihari_Batman`, styles.starting);
+console.log(`${logPrefix}Trial - 2 days`, styles.starting);
 
 const randomDelay = (min, max) => Math.random() * (max - min) + min;
 const randomOffset = range => Math.random() * range * 2 - range;
